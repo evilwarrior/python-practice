@@ -11,7 +11,7 @@ torrent_pair = dict(map(lambda pair: (pair[0][7:], pair[1]), filter(lambda pair:
 
 from pprint import pprint
 
-root_path = r'Y:\520-Douga\521-MMD\SamOneOne (SamOne)\Samone\2023'
+root_path = r'.\Samone\2023'
 files_pair = dict()
 for root, dirs, files in os.walk(root_path):
     if not files:
