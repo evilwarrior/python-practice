@@ -1,4 +1,4 @@
- import os, re
+import os, re
 
 pair_re = re.compile(r':lengthi(\d+?)e4:pathl(?:4|10):(.*?)ee(?:d6|e4)')
 
