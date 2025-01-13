@@ -1,3 +1,5 @@
+import os, urllib
+
 urls = ['https://test.com/1234567890?f=test.jpg']
 
 from aria2_rpc_client import DefaultClient
